@@ -1,5 +1,3 @@
-from datetime import datetime
-
 class Lesson:
     def __init__(self, lesson_id, title):
         self.id = lesson_id

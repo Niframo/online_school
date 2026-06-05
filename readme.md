@@ -18,14 +18,15 @@
 ```text
 online_school/
 │
-├── models.py
-├── manager.py
-├── main.py
-├── requirements.txt
-├── README.md
-└── school_data.json  #Создаётся автоматически
+├── models.py          # Модели данных
+├── manager.py         # Логика
+├── main.py            # Точка входа
+├── tests.py           # Юнит-тесты
+├── requirements.txt   # Зависимости
+├── school_data.json   # База данных
+└── README.md          # Документация
 ```
-
+school_data.json  #Создаётся автоматически
 ## Требования
 
 * **Python 3.7 или выше**
@@ -40,3 +41,9 @@ online_school/
 pip install -r requirements.txt
 ```
 3. Запустите файл `main.py`
+
+## Запуск тестов
+Чтобы запустить проверку логики вашего проекта, выполните в терминале команду:
+```bash
+python tests.py
+```
